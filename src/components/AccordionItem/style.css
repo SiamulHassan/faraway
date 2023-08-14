@@ -1,0 +1,30 @@
+.acc-item {
+  background-color: #fff;
+  border-top: 3px solid rgba(46, 139, 86, 0);
+  box-shadow: 0 3px 85px rgba(0, 0, 0, 0.096);
+  padding: 2rem 3rem;
+  margin: 2rem 0;
+  width: 800px;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 30px 1fr 30px;
+  column-gap: 23px;
+  row-gap: 32px;
+  align-items: center;
+}
+.acc-item .acc-heading {
+  font-size: 20px;
+}
+.acc-item .content-box {
+  font-size: 18px;
+  line-height: 1.6;
+  grid-column: 2/3;
+}
+/* open state */
+.open {
+  border-top: 3px solid seagreen;
+}
+.open .num,
+.open .acc-heading {
+  color: rgb(41, 148, 87);
+}
